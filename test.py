@@ -13,6 +13,5 @@ int main(){
 """
 
 src = CPP(src_code)
-src.compile("power.exe",True)
+src.compile(filename_out = "power.exe",filename_in = "power.cpp",save_src_code = True)
 src.run("power.exe")
-
