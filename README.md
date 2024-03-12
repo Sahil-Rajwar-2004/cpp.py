@@ -2,6 +2,10 @@
 
 ## compile and run C++ files in python environment :) 
 
+## Essentials
+#### 1. `python` >= 3.0
+#### 2. `C++` compiler should installed on your system
+
 ## Installation
 
 ```bash
@@ -12,7 +16,7 @@ cd dist
 pip install <wheel-file>
 ```
 
-### Example
+### Implemetation
 
 ```python3
 from cpp import CPP
